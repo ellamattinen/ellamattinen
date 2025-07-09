@@ -18,9 +18,9 @@ body, html {
 
 /* Sidebar */
 .sidebar {
-  width: 220px;
-  background-color: #f3d1e3;
-  color: black;
+  width: 280px;
+  background-color: #6a3e4d;
+  color: #fff3f3;
   padding: 20px;
   flex-shrink: 0;
 }
@@ -39,7 +39,7 @@ body, html {
 }
 
 .sidebar ul li a {
-  color: black;
+  color: #fff3f3;
   text-decoration: none;
 }
 
