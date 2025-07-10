@@ -19,7 +19,8 @@ body, html {
 /* Layout */
 .container {
   display: flex;
-  height: 100vh;
+  height: 100%; /* will break if body/html are not 100% */
+  align-items: stretch;
 }
 
 /* Sidebar */
