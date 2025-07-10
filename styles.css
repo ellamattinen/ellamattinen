@@ -121,3 +121,8 @@ body, html {
   }
 }
 
+.content a {
+  color: #ffa0b3;
+  text-decoration: underline;
+}
+
