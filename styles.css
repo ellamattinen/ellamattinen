@@ -10,6 +10,12 @@ body {
   box-sizing: border-box;
 }
 
+html {
+  height: auto;
+  min-height: 100%;
+}
+
+
 body, html {
   height: 100%;
   font-family: sans-serif;
@@ -19,18 +25,22 @@ body, html {
 /* Layout */
 .container {
   display: flex;
-  min-height: 100vh; /* ✅ fills screen height and grows if content overflows */
-  align-items: stretch;
+  min-height: 100vh;
 }
+
 
 /* Sidebar */
 .sidebar {
   width: 400px;
   background-color: #111111;
   color: #fffbfb;
-  padding: 40px 40px;
+  padding: 40px;
   flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
 }
+
 
 .sidebar ul li a[href$=".pdf"] {
   font-size: 26px;
