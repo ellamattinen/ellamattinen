@@ -126,3 +126,8 @@ body, html {
   text-decoration: underline;
 }
 
+
+.content a:hover {
+  color: #90525f;
+}
+
