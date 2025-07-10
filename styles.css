@@ -30,6 +30,11 @@ body, html {
   flex-shrink: 0;
 }
 
+.sidebar ul li a[href$=".pdf"] {
+  font-weight: bold;
+  color: #ffe2e2; 
+}
+
 .sidebar h2 {
   margin-bottom: 20px;
   font-size: 40px;
