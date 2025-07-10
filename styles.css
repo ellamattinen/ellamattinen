@@ -83,24 +83,31 @@ body, html {
 
   .sidebar {
     width: 100%;
+    padding: 20px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;         /* Stack content vertically */
     align-items: center;
-    justify-content: space-between;
-    padding: 10px 20px;
+    text-align: center;
+  }
+
+  .sidebar-image {
+    max-width: 100px;
+    margin-bottom: 10px;
   }
 
   .sidebar h2 {
-    font-size: 18px;
+    margin-bottom: 15px;
+    font-size: 20px;
   }
 
   .sidebar ul {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;        /* Stack links vertically */
+    align-items: center;
     gap: 10px;
-    list-style: none;
     padding: 0;
     margin: 0;
+    list-style: none;
   }
 
   .sidebar ul li {
@@ -108,12 +115,7 @@ body, html {
   }
 
   .sidebar ul li a {
-    font-size: 14px;
-  }
-
-  .sidebar-image {
-    max-width: 50px;
-    border-radius: 6px;
+    font-size: 16px;
   }
 
   .content {
