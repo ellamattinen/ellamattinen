@@ -72,7 +72,7 @@ body, html {
 /* Main Content */
 .content {
   flex-grow: 1;
-  padding: 60px 80px;
+  padding: 100px 100px;
   background-color: #fff8fa;
   color: #111111;
 }
