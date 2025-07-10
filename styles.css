@@ -19,7 +19,7 @@ body, html {
 /* Layout */
 .container {
   display: flex;
-  height: 100%; /* will break if body/html are not 100% */
+  min-height: 100vh; /* ✅ fills screen height and grows if content overflows */
   align-items: stretch;
 }
 
