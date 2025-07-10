@@ -59,7 +59,7 @@ body, html {
 
 .sidebar-image {
   width: 90%;            
-  height: 320px;    
+  height: 350px;    
   object-fit: cover; 
   object-position: bottom;
   border-radius: 8px;      
