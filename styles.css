@@ -23,7 +23,7 @@ body, html {
 
 /* Sidebar */
 .sidebar {
-  width: 360px;
+  width: 380px;
   background-color: #462929;
   color: #f6f5f0;
   padding: 20px;
@@ -37,7 +37,7 @@ body, html {
 
 .sidebar h2 {
   margin-bottom: 20px;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 .sidebar ul {
