@@ -26,7 +26,7 @@ body, html {
   width: 400px;
   background-color: #462929;
   color: #f6f5f0;
-  padding: 20px;
+  padding: 40px 40px;
   flex-shrink: 0;
 }
 
@@ -70,7 +70,7 @@ body, html {
 /* Main Content */
 .content {
   flex-grow: 1;
-  padding: 60px;
+  padding: 60px 80px;
   background-color: #f6f5f0;
   color: #462929;
 }
